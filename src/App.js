@@ -22,7 +22,10 @@ function App() {
       type: type
     })
     setTimeout(()=>{
-      setalert(null);
+      setalert({
+        msg: "",
+        type: undefined
+      });
 
     },1500);
   }
