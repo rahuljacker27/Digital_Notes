@@ -26,9 +26,6 @@ function App() {
 
     },1500);
   }
-  const activePage = ()=>{
-    
-  }
   return (
     <>
     <NoteState>
